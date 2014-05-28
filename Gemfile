@@ -2,6 +2,12 @@ source 'https://rubygems.org'
 
 gem 'bootstrap-sass', '~> 3.1.1'
 
+# Figaro parses a Git-ignored YAML file in your application and loads its values into ENV.
+gem "figaro"
+
+# geocoder from Geocoder GitHub Page...used for mapping
+gem "geocoder"
+
 #simple form gem https://github.com/plataformatec/simple_form
 gem 'simple_form'
 
